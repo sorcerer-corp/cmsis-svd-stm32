@@ -1,0 +1,5 @@
+# Copyright (c) 2024 Sorcerer Corporation
+
+build:
+  cmake-ext: true
+  kconfig-ext: true
