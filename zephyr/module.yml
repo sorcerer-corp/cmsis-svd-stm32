@@ -2,4 +2,4 @@
 
 build:
   cmake-ext: true
-  kconfig-ext: true
+  kconfig: Kconfig

@@ -1,0 +1,13 @@
+# Copyright (c) 2024 Sorcerer Corporation
+
+config ZEPHYR_CMSIS_SVD_STM32_MODULE
+	bool
+
+menuconfig CMSIS_SVD_STM32
+	bool "CMSIS SVD files for all STM32 devices"
+	help
+	  This option adds CMSIS SVD files for all STM32 devices.
+
+if CMSIS_SVD_STM32
+
+endif # CMSIS_SVD_STM32
